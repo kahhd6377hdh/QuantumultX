@@ -17,7 +17,7 @@ if ($response.statusCode == 200 && $request.method == 'GET') {
 		bodyObj.auditionDuration = 72000;
 	} else {
 		bodyObj.from = 1482071586
-		bodyObj.to = 1671373986
+		bodyObj.to = 1796953880
 	}
 
 	$done({body: JSON.stringify(bodyObj)})
