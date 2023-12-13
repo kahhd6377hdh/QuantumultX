@@ -4,13 +4,13 @@
 [Rule]
 
 [URL Rewrite]
-(?i)\b\/ad\/ - reject
+# (?i)\b\/ad\/ - reject
 (?i)\b\/ads\/ - reject
 (?i)\b\/adv\/ - reject
 (?i)\b\/advert\/ - reject
 (?i)\b\/adx\/ - reject
 
-(?i)\b\/ad\? - reject
+# (?i)\b\/ad\? - reject
 (?i)\b\/ads\? - reject
 
 (?i)\badvertisement - reject
