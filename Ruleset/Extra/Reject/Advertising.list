@@ -635,8 +635,8 @@ IP-CIDR,101.227.200.28/32,no-resolve
 IP-CIDR,124.192.153.42/32,no-resolve
 # ------
 # > ByteDance
-# DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-# DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN,ad.toutiao.com
 DOMAIN,dsp.toutiao.com
 DOMAIN,pangolin.snssdk.com
