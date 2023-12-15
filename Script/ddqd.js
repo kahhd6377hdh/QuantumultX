@@ -8,7 +8,7 @@ hostname = dida365.com
 */
 
     let obj = JSON.parse($response.body);
-    obj.proEndDate = 4100999042;
+    obj.proEndDate = "2029-01-01T00:00:00.000+0000";
     obj.needSubscribe = false;
     obj.pro = true;
     obj.teamPro = true;
