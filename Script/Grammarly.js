@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.grammarly\.com\/(api\/v\d\/subscription|v\d\/user\/oranonymous) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Grammarly.js
+^https?:\/\/.*\.grammarly\.com\/(api\/v\d\/subscription|v\d\/user\/oranonymous|v\d\/api\/signup) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Grammarly.js
 
 [mitm]
 hostname = *.grammarly.com
@@ -31,7 +31,9 @@ vip.institutionProofit = true;
 vip.Proofit = true;
 vip.isAppleSubscription = true;
 vip.plagiarismOn = true;
-vip.proofit = true;
+vip.editorFeatures.proofit = true;
 vip.institutionProofit = true;
+vip.editorFeatures.plagiarismDisabled = false;
+
 
 $done({body:JSON.stringify(vip)});
