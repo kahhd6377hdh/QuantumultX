@@ -31,9 +31,9 @@ vip.institutionProofit = true;
 vip.Proofit = true;
 vip.isAppleSubscription = true;
 vip.plagiarismOn = true;
-vip.editorFeatures.proofit = true;
+vip.proofit = true;
 vip.institutionProofit = true;
-vip.editorFeatures.plagiarismDisabled = false;
+vip.plagiarismDisabled = false;
 
 
 $done({body:JSON.stringify(vip)});
